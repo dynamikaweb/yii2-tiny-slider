@@ -32,8 +32,8 @@
         "npm-asset/tiny-slider": "*" 
     },
     "replace": {
-        "kv4nt/yii2-owl-carousel2": "deprecated assets, update to new dependencies",
-        "dominus77/yii2-owl-carousel2": "deprecated assets, update to new dependencies"
+        "kv4nt/yii2-owl-carousel2": "*",
+        "dominus77/yii2-owl-carousel2": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
