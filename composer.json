@@ -1,11 +1,13 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-tiny-slider",
+    "description": "Vanilla slider inspired by Owl Carousel",
     "type": "yii2-extension",
     "keywords": [
         "dynamika",
         "yii",
-        "yii2"
+        "yii2",
+        "slider",
+        "owl"
     ],
     "license": "BSD-3-Clause",
     "authors": [
@@ -21,18 +23,23 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-tiny-slider/issues",
+        "source": "http://github.com/dynamikaweb/yii2-tiny-slider"
     },
     "require": {
-        "php": ">=7.4.0",
-        "yiisoft/yii2": "*"
+        "php": ">=7.0",
+        "yiisoft/yii2": "*",
+        "npm-asset/tiny-slider": "*" 
+    },
+    "replace": {
+        "kv4nt/yii2-owl-carousel2": "deprecated assets, update to new dependencies",
+        "dominus77/yii2-owl-carousel2": "deprecated assets, update to new dependencies"
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\tiny\\": "src"
         }
     }
 }
