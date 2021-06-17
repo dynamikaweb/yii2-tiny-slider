@@ -41,5 +41,11 @@
         "psr-4": {
             "dynamikaweb\\tiny\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
